@@ -1,0 +1,51 @@
+.Header{
+    display: flex;
+}
+.Header h3{
+    width: 1170;
+    height: 38;
+    top: 88px;
+    left: 135px;
+    gap: 148px;  
+    padding-left: 50px;  
+}
+nav{
+    padding: 14px 15px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 300px;  
+   
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    width: 675;
+    height: 24;
+    gap: 190px;
+
+}
+.search input{
+    width: 243;
+    height: 38;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 7px;
+    padding-right: 12px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    background-color: cornsilk;
+    
+}
+.button img {
+    width: 235;
+    height: 30;
+    background-image: inherit;
+    background: transparent;
+ background-color: transparent;
+}
