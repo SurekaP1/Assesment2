@@ -1,51 +1,67 @@
 .Header{
     display: flex;
+   
+    align-items: center;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    font-family: poppins;
+    font-size: 15px;
 }
 .Header h3{
-    width: 1170;
-    height: 38;
-    top: 88px;
-    left: 135px;
-    gap: 148px;  
-    padding-left: 50px;  
+    margin-left: 50px;
+    font-family: poppins;
+    font-size: 20px;
+  
 }
-nav{
-    padding: 14px 15px;
-    position: fixed;
-    top: 50px;
-    left: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 300px;  
-   
-
-}
+nav {
+    margin-left: 100px; 
+  }
+  
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 5px 20px;
-    width: 675;
-    height: 24;
-    gap: 190px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 0px;
+    padding: 20px;
+    justify-content: space-between;
 
 }
-.search input{
+.search-wrapper {
+    display: inline;
+    align-items: center;
+    position: relative;
+    
+  }
+
+.search-wrapper  input{
     width: 243;
     height: 38;
-    gap: 10px;
     border-radius: 4px;
     padding-top: 7px;
-    padding-right: 12px;
+    padding-right: 20px;
     padding-bottom: 7px;
     padding-left: 20px;
-    background-color: cornsilk;
-    
+    background-color:  rgb(225, 225, 228);
+    border: 1px solid #ccc;
+    margin-left: 350px;
+   
 }
-.button img {
-    width: 235;
-    height: 30;
-    background-image: inherit;
-    background: transparent;
- background-color: transparent;
+.search-wrapper .search-icon {
+    display:inline-block;
+    position:absolute ;
+    left: 170px;
+    width: 15px; 
+    height: 15px;
+    top: 20%;
+    margin-left: 350px;
+  }
+  .symbols{
+    display: flex;
+    margin-right: 90px;   
 }
+.symbols img{
+    display: flex;
+    margin-right: 10px;
+   
+} 

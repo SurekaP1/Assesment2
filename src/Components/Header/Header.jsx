@@ -1,6 +1,9 @@
 import React from 'react'
 import './Header.css'
 import search from '../../assets/search.png'
+import Wishlist from '../../assets/Wishlist.png'
+import Cart from '../../assets/Cart.png'
+import user from '../../assets/user.png'
 
 const Header = () => {
   return (
@@ -14,14 +17,23 @@ const Header = () => {
     </ul>
     </nav>
 
-    <div className='search'>
-      <input  type="text"  placeholder="What are you looking for?"/>
-      <button className='button'> <img src={search} alt='' /> </button>
+    <div className="search">
+      <div className="search-wrapper">
+        <img src={search} alt="" className="search-icon" />
+        <input type="search" placeholder="What are you looking for?" />
+      </div>
+      <button className="button"></button>
+   
       
     </div>
-   
-
-      
+    <div className="headericons">
+      <div className="symbols">
+        <img src={Wishlist} alt='' />
+        <img src={Cart} alt='' />
+        <img src={user} alt='' />
+      </div>
+    </div>
+    <div className="line"></div> 
     </div>
   )
 }
