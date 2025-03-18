@@ -5,20 +5,20 @@
     background-color: rgba(0, 0, 0, 1);
     color: rgb(255, 255, 255);
     align-items: center;   
+    height: 30px;
 }
 .TopHeader p{
     margin-left: 200px;
     align-items: center;
     
 }
-.TopHeader h5{
+.TopHeader h4{
     margin-left: 10px;
     text-decoration: underline;
     text-align:center;
     cursor: pointer;
 }
-
-.English h5{
+.English h4{
     margin-left: 300px;
     text-decoration: none; 
     text-align: center;
@@ -30,6 +30,5 @@
     margin-left:10px;
     text-align: center;
     color: aliceblue;
-    
 }
 

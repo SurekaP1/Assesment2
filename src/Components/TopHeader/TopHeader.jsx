@@ -6,12 +6,12 @@ const TopHeader = () => {
   return (
     <div className='TopHeader'>
       <p>Summer Sale For All Swim Suits And Free Express Delivery-OFF 50%! </p>
-      <h5>Shop Now</h5>
+      <h4>Shop Now</h4>
       
       <div className="English">
-        <h5>
+        <h4>
           English <img src={arrow} alt="" /> 
-        </h5>
+        </h4>
       </div>
     </div>
   )
