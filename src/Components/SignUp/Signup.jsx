@@ -19,7 +19,7 @@ const Signup = () => {
           <img src={SideImage} alt="" />
         </div>
 
-        {/* form */}
+        
         <div className="signup-form">
           <h1>Create an account</h1>
           <h3>Enter your details below</h3>
@@ -28,10 +28,10 @@ const Signup = () => {
             <input type="text" placeholder="Name" />
             <input type="email" placeholder="Email or Phone Number" />
             <input type="password" placeholder="Password" />
-            {/* buttons */}
+            
             <button className="create-accout">Create Account</button>
             <button className="sign-with-google">
-              {/* icon */}
+              
               <img src={IconGoogle} alt="" className="google" />
               Sign up with Google
             </button>

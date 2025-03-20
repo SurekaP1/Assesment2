@@ -1,22 +1,14 @@
 
-
-/* whole page */
 .signup{
     display: flex;
     font-family: poppins;
 }
-   
-
-
-/* side-image */
-
-
 .side-image{
    
     margin-top: 60px;
     margin-bottom: 100px;
 }
-/* form */
+
 .signup-form{
     display: inline;
     margin-left: 50px;
@@ -37,7 +29,6 @@
     border-left:white ;
     border-right: white;
 }
-/* create-accout button */
 .create-accout{
     width: 250px;
     height: 40px;
@@ -49,7 +40,7 @@
     border-width: 1px;
      font-size: 15px;
 }
-/* sign-with-google button */
+
 .sign-with-google{
     background-color: white;
     width: 250px;
@@ -68,13 +59,12 @@
     color: black;
    
 }
-/* google icon */
 .google{
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
-/* login-meg */
+
 .login-meg{
     margin-top: 20px;
     font-size: 15px;
