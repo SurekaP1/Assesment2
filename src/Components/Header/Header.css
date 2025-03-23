@@ -7,15 +7,15 @@
     font-family: poppins;
     font-size: 15px;
 }
-
 .Header h3{
     margin-left: 50px;
     font-family: poppins;
     font-size: 20px; 
+    display: flex;
 }
-
 nav{
-    margin-left: 100px; 
+    margin-left: 50px; 
+    display: flex;
 }
   
 nav ul li{
@@ -28,13 +28,32 @@ nav ul li{
     justify-content: space-between;
 
 }
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark gray text */
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+   cursor: pointer;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    color: white;
+    background-color: #d9534f; /* Red background */
+    border-radius: 5px;
+}
+
+/* Active (visited) link */
+nav ul li a:active {
+    color: #d9534f; /* Red text */
+}
 .search-wrapper {
     display: inline;
     align-items: center;
     position: relative;
     
-  }
-
+}
 .search-wrapper  input{
     width: 243;
     height: 38;
@@ -48,7 +67,6 @@ nav ul li{
     margin-left: 350px;
    
 }
-
 .search-wrapper .search-icon {
     display:inline-block;
     position:absolute ;
@@ -58,12 +76,10 @@ nav ul li{
     top: 20%;
     margin-left: 350px;
   }
-
   .symbols{
     display: flex;
     margin-right: 90px;   
 }
-
 .symbols img{
     display: flex;
     margin-right: 10px;

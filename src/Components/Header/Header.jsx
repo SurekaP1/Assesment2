@@ -10,10 +10,10 @@ const Header = () => {
     <div className='Header'> 
     <h3>Exclusive</h3>
     <nav className='contaner'> <ul>
-    <li>Home</li>
+    <li><a href='/Error'> Home </a></li>
     <li> Contact</li>
     <li>About</li>
-    <li>Sign up</li>
+    <li> <a href='/Signup'> Sign up </a> </li>
     </ul>
     </nav>
 

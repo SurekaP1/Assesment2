@@ -7,10 +7,17 @@ import Error from './Components/Error/Error'
 import Login from './Components/Login/Login'
 
 const App = () => {
+  const [page, setPage] = useState(window.location.pathname);
+
   return (
     <div>
-       
-     <Login/>
+      <Header setPage={setPage} />
+
+      {page === "/Error" && <ErrorPage />}
+      {page === "/Signup" && <SignUpPage />}
+      {page !== "/Error" && page !== "/Signup" && <h1>Welcome to Home Page</h1>}
+      <Error/> 
+     
        
     </div>
   )
