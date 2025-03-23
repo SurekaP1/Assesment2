@@ -1,81 +1,92 @@
-
-.signup{
-    display:block ;
+.signup {
+    display: flex;
     font-family: poppins;
     align-items: center;
-    justify-content: center;
+    margin-top: -20px; /* Move the whole signup section further up */
 }
-.SideImage{
-   
-    margin-top: 60px;
-    margin-bottom: 100px;
+
+.Sideimage {
+    margin-top: 60px; /* Move image slightly up */
+    margin-bottom: 40px; /* Adjusted for balance */
 }
-.signup-form{
+
+.signup-form {
     display: inline;
-    margin-left: 50px;
-    margin-top: 100px;
+    margin-left: 100px;
+    margin-top: 10px; /* Move form higher */
 }
-.signup-form h1{
-    font-size: 30px;
-    margin-bottom: 10px;   
+
+.signup-form h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
 }
-.signup-form input{
+
+.signup-form input {
     width: 250px;
     height: 30px;
     border-width: 1.5px;
     border-color: rgb(156, 156, 156);
-    margin-bottom: 30px;
+    margin-bottom: 40px; /* Increased spacing between fields */
+    padding: 5px; /* Added slight padding for better spacing */
     border-top: white;
-    border-left:white ;
+    border-left: white;
     border-right: white;
+    display: flex;
 }
-.create-accout{
-    width: 250px;
+
+.create-accout {
+    width: 150px;
     height: 40px;
     border-radius: 5px;
     background-color: rgb(203, 38, 38);
-    color:#fff;
+    color: #fff;
     border: solid;
     cursor: pointer;
     border-width: 1px;
-     font-size: 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center text */
 }
-.sign-with-google{
+
+.sign-google {
     background-color: white;
     width: 250px;
     height: 40px;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    border-color:rgb(101, 100, 100);
+    border-color: rgb(101, 100, 100);
     border: solid;
     cursor: pointer;
     border-width: 1px;
     margin-top: 20px;
     font-size: 15px;
-    font-weight: 200px;
+    font-weight: 200;
     display: flex;
     color: black;
-   
 }
-.google{
+
+.google {
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
-.login-meg{
+
+.login-meg {
     margin-top: 20px;
     font-size: 15px;
     display: flex;
 }
-.login-meg  a{
-    color:rgb(69, 67, 67) ;
-      font-weight: 700;
-      margin-left: 20px;
-      text-decoration: underline;
-      text-decoration:underline;
+
+.login-meg a {
+    color: rgb(69, 67, 67);
+    font-weight: 700;
+    margin-left: 20px;
+    text-decoration: underline;
 }
-.login-meg  h4{
-    color:rgb(69, 67, 67) ;
+
+.login-meg h4 {
+    color: rgb(69, 67, 67);
     font-weight: 500;
 }

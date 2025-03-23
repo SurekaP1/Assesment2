@@ -1,8 +1,8 @@
 import React from 'react'
+import './Error.css'
 import Footer from '../Footer/Footer'
 import TopHeader from '../TopHeader/TopHeader'
 import Header from '../Header/Header'
-
 
 
 const Error = () => {
@@ -10,7 +10,7 @@ const Error = () => {
     <div className="error-page">
         <TopHeader/>
         <Header/>
-   <div className="Bar">
+   <div className="bar">
     <h5>Home</h5>
     <h4>/</h4>
     <h4>404 Error</h4>
