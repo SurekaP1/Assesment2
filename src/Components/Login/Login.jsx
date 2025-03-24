@@ -8,8 +8,6 @@ import Header from '../Header/Header'
 const Login = () => {
   return (
     <div className="login-import">
-      <TopHeader/>
-      <Header/>
       <div className="log-in">
         <div className="signup">
 
@@ -35,7 +33,6 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
   )
 }

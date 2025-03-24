@@ -8,13 +8,13 @@
     font-size: 15px;
 }
 .Header h3{
-    margin-left: 50px;
+    margin-left: 30px;
     font-family: poppins;
     font-size: 20px; 
     display: flex;
 }
 nav{
-    margin-left: 50px; 
+    margin-left: 30px; 
     display: flex;
 }
   
@@ -22,7 +22,7 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px;
-    margin-left: 40px;
+    margin-left: 0px;
     margin-right: 0px;
     padding: 20px;
     justify-content: space-between;
@@ -80,8 +80,24 @@ nav ul li a:active {
     display: flex;
     margin-right: 90px;   
 }
-.symbols img{
+.header i img{
     display: flex;
     margin-right: 10px;
    
 } 
+/* Hover effect */
+ .symbols a{
+    color: white;
+    background-color: #d9534f; /* Red background */
+    border-radius: 5px;
+}
+.symbols a:hover {
+    color: white;
+    background-color: #d9534f; /* Red background */
+    border-radius: 5px;
+}
+
+/* Active (visited) link */
+ .symbols a:active {
+    color: #d9534f; /* Red text */
+}

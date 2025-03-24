@@ -8,8 +8,6 @@ import Header from '../Header/Header'
 const Error = () => {
   return (
     <div className="error-page">
-        <TopHeader/>
-        <Header/>
    <div className="bar">
     <h5>Home</h5>
     <h4>/</h4>
@@ -23,7 +21,6 @@ const Error = () => {
         <button>Back to home Page</button>
     </center>
    </div>
-   <Footer/>
   </div>
   )
 }

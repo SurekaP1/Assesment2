@@ -1,4 +1,5 @@
-import React from 'react'
+
+import React, { useState } from 'react'
 import TopHeader from './Components/TopHeader/TopHeader'
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
@@ -11,13 +12,14 @@ const App = () => {
 
   return (
     <div>
-      <Header setPage={setPage} />
-
-      {page === "/Error" && <ErrorPage />}
-      {page === "/Signup" && <SignUpPage />}
-      {page !== "/Error" && page !== "/Signup" && <h1>Welcome to Home Page</h1>}
-      <Error/> 
+       <TopHeader/>
+      <Header setPage={setPage} />  
      
+      {page === "/Signup" && <Signup />}
+      {page === "/Error" && <Error />}
+      {page === "/Login" && <Login />}
+      
+     <Footer/>
        
     </div>
   )

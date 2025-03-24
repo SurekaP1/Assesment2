@@ -10,8 +10,6 @@ import TopHeader from '../TopHeader/TopHeader'
 const Signup = () => {
   return (
     <div className="signup-import">
-      <TopHeader />
-      <Header/>
       <div className="signup">
         
         <div className="Sideimage">
@@ -36,11 +34,10 @@ const Signup = () => {
           </form>
           <div className="login-meg">
             <h4>Already have account?</h4>
-            <a href="Login.jsx">Login</a>
+            <a href="/Login">Login</a>
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
   );
 };

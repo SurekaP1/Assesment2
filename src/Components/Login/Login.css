@@ -38,45 +38,30 @@
     border-right: white;
     margin-top: 16px;
 }
-/* create-accout button */
-.Log-In-btn{
-    width: 100px;
-    height: 40px;
-    border-radius: 5px;
-    background-color: rgb(203, 38, 38);
-    color:#fff;
-    border: solid;
+.container button {
+    background-color: #c32626;
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
     cursor: pointer;
-    border-width: 1px;
-     font-size: 15px;
-     margin-left: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
-
-/* Forget-Password */
+.container button:hover {
+    background-color: #a11e1e; 
+    transform: scale(1.05);
+}
+.container button:active {
+    background-color: #8d1a1a;
+    transform: scale(0.98);
+}
 .Forget-Password a{
 margin-top: 0%;
 margin-left: 0%;
 margin-right: 50px;
 }
-
-.container {
-    display: flex;
-    align-items: center;
-    gap: 10px; 
-}
-
-button {
-   background-color: rgb(173, 28, 28);
-    color: white;
-    border: none;
-    padding: 12px 23px;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
-    font-weight: 400;
-}
-
 a {
     color: rgb(173, 28, 28);
     text-decoration: none;

@@ -11,8 +11,8 @@ const Header = () => {
     <h3>Exclusive</h3>
     <nav className='contaner'> <ul>
     <li><a href='/Error'> Home </a></li>
-    <li> Contact</li>
-    <li>About</li>
+    <li><a href="">  Contact </a> </li>
+    <li><a href=''>About </a> </li>
     <li> <a href='/Signup'> Sign up </a> </li>
     </ul>
     </nav>
@@ -22,7 +22,7 @@ const Header = () => {
         <img src={search} alt="" className="search-icon" />
         <input type="search" placeholder="What are you looking for?" />
       </div>
-      <button className="button"></button>
+      
    
       
     </div>
